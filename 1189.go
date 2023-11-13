@@ -1,3 +1,5 @@
+package leetcode
+
 func maxNumberOfBalloons(text string) int {
 
 	buckets := make([]int, 5)

@@ -1,3 +1,5 @@
+package leetcode
+
 func smallerNumbersThanCurrent(nums []int) []int {
 	buckets := make([]int, 101)
 	for _, num := range nums {
