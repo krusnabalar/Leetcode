@@ -1,3 +1,5 @@
+package leetcode
+
 func topKFrequent(nums []int, k int) []int {
 	numFreqs := make(map[int]byte, len(nums))
 	for _, num := range nums {

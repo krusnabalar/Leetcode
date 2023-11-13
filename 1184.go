@@ -1,3 +1,5 @@
+package leetcode
+
 func distanceBetweenBusStops(distance []int, start int, destination int) int {
 	distance_clockwise := 0
 	for current := start; current != destination; current = (current + 1) % len(distance) {

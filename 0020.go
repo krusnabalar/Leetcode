@@ -1,4 +1,4 @@
-
+package leetcode
 
 func isValid(s string) bool {
 	pairs := map[rune]rune{

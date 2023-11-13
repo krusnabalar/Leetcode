@@ -1,3 +1,5 @@
+package leetcode
+
 func twoSum(nums []int, target int) []int {
 	complementToIndex := make(map[int]int)
 	for idx, num := range nums {

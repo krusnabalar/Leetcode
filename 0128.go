@@ -1,3 +1,5 @@
+package leetcode
+
 func longestConsecutive(nums []int) int {
 	numSet := make(map[int]struct{})
 

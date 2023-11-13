@@ -1,3 +1,5 @@
+package leetcode
+
 func removeDuplicates(nums []int) int {
 	previous := nums[0]
 	newLen := 1

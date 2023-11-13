@@ -1,3 +1,5 @@
+package leetcode
+
 func merge(arr1, arr2 []int) []int {
 	newArr := make([]int, len(arr1)+len(arr2))
 	ptr1 := 0

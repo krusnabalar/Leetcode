@@ -1,3 +1,5 @@
+package leetcode
+
 func groupAnagrams(strs []string) [][]string {
 	wordToGroup := make(map[[26]byte][]string, len(strs))
 

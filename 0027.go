@@ -1,3 +1,5 @@
+package leetcode
+
 func removeElement(nums []int, val int) int {
 	leftPtr := 0
 	rightPtr := len(nums) - 1

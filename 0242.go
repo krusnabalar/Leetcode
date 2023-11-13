@@ -1,3 +1,5 @@
+package leetcode
+
 func countLetters(word string) [26]int {
 	letterToFrequency := [26]int{}
 	for _, letter := range word {

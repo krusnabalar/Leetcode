@@ -1,3 +1,5 @@
+package leetcode
+
 func nextGreaterElement(nums1 []int, nums2 []int) []int {
 	ans := make([]int, len(nums1))
 	indexOf := make(map[int]int, len(nums1))

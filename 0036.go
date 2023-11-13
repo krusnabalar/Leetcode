@@ -1,3 +1,5 @@
+package leetcode
+
 func isValidSudoku(board [][]byte) bool {
 	col_checks := [9][9]byte{}
 	block_checks := [9][9]byte{}

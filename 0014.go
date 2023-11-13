@@ -1,3 +1,5 @@
+package leetcode
+
 func longestCommonPrefix(strs []string) string {
 	if len(strs) < 1 {
 		return ""

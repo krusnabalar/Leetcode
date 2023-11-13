@@ -1,3 +1,5 @@
+package leetcode
+
 func generate(numRows int) [][]int {
 	triangle := make([][]int, numRows)
 	for i := 0; i < numRows; i++ {

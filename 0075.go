@@ -1,3 +1,5 @@
+package leetcode
+
 func sortColors(nums []int) {
 	red := 0
 	blue := len(nums) - 1

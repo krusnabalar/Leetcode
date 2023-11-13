@@ -1,5 +1,8 @@
+package leetcode
 
-func isPalindrome(s string) bool {
+import "unicode"
+
+func isValidPalindrome(s string) bool {
 	i := 0
 	j := len(s) - 1
 

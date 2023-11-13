@@ -1,3 +1,5 @@
+package leetcode
+
 func lengthOfLastWord(s string) int {
 	if len(s) < 2 {
 		return len(s)

@@ -1,3 +1,7 @@
+package leetcode
+
+import "strconv"
+
 func getLucky(s string, k int) int {
 	s_number := ""
 	for _, c := range s {

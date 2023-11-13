@@ -1,3 +1,5 @@
+package leetcode
+
 func replaceElements(arr []int) []int {
 	max := -1
 	for i := len(arr) - 1; i > -1; i-- {

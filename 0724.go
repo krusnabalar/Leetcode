@@ -1,3 +1,5 @@
+package leetcode
+
 func pivotIndex(nums []int) int {
 	sumLeft := 0
 	sumRight := 0

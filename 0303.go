@@ -1,3 +1,5 @@
+package leetcode
+
 type NumArray struct {
 	numSum []int
 }

@@ -1,3 +1,5 @@
+package leetcode
+
 func isIsomorphic(s string, t string) bool {
 	forwardMap := make(map[byte]byte)
 	backwardMap := make(map[byte]byte)

@@ -1,3 +1,5 @@
+package leetcode
+
 func findDisappearedNumbers(nums []int) []int {
 	buckets := make([]int, len(nums))
 	ans := make([]int, 0)

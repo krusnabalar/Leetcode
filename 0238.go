@@ -1,3 +1,4 @@
+package leetcode
 
 func productExceptSelf(nums []int) []int {
 	products := make([]int, len(nums))
