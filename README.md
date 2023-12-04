@@ -84,6 +84,7 @@ The combined efforts of 3 dudes solving algorithms
 | 1160 | O | X | X |
 | 1184 | X | O | X |
 | 1189 | X | O | X |
+| 1266 | O | X | X |
 | 1299 | X | O | X |
 | 1365 | X | O | X |
 | 1424 | O | X | X |
