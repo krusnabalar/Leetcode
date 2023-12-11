@@ -31,6 +31,7 @@ The combined efforts of 3 dudes solving algorithms
 | 71 | O | X | X |
 | 73 | O | X | X |
 | 75 | X | O | X |
+| 86 | O | X | X |
 | 88 | O | X | X |
 | 100 | O | X | X |
 | 101 | O | X | X |
