@@ -107,6 +107,7 @@ The combined efforts of 3 dudes solving algorithms
 | 1759 | O | X | X |
 | 1797 | O | X | X |
 | 1814 | O | X | X |
+| 1836 | O | X | X |
 | 1846 | O | X | X |
 | 1877 | O | X | X |
 | 1929 | X | O | X |
