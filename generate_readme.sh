@@ -34,3 +34,9 @@ for problem in $superset; do
 
     echo "| $problem | $java_status | $go_status | $python_status |" >> README.md
 done
+
+# Add the last row indicating the number of problems solved in each language
+java_count=$(echo "$java_problems" | wc -l)
+go_count=$(echo "$go_problems" | wc -l)
+python_count=$(echo "$python_problems" | wc -l)
+echo "| **Total** | $java_count | $go_count | $python_count |" >> README.md
