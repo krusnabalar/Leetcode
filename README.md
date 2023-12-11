@@ -123,3 +123,4 @@ The combined efforts of 3 dudes solving algorithms
 | 2785 | O | X | X |
 | 2849 | O | X | X |
 | 2879 | X | X | O |
+| **Total** |       91 |       37 |        8 |
