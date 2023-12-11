@@ -65,6 +65,7 @@ The combined efforts of 3 dudes solving algorithms
 | 347 | X | O | O |
 | 374 | O | X | X |
 | 392 | X | O | X |
+| 445 | O | X | X |
 | 448 | X | O | X |
 | 452 | O | X | X |
 | 455 | O | X | X |
