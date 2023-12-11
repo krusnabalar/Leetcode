@@ -17,6 +17,7 @@ class Solution {
         }
     }
 
+    // recursive solution from CTCI
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         int len1 = length(l1);
         int len2 = length(l2);
