@@ -102,6 +102,7 @@ The combined efforts of 3 dudes solving algorithms
 | 1570 | O | X | X |
 | 1582 | O | X | X |
 | 1630 | O | X | X |
+| 1637 | O | X | X |
 | 1662 | O | X | X |
 | 1732 | O | X | X |
 | 1743 | O | X | X |
@@ -124,4 +125,4 @@ The combined efforts of 3 dudes solving algorithms
 | 2785 | O | X | X |
 | 2849 | O | X | X |
 | 2879 | X | X | O |
-| **Total** |       92 |       37 |        8 |
+| **Total** |       93 |       37 |        8 |
