@@ -1,15 +1,6 @@
-/**
- * Definition for singly-linked list.
- * public class ListNode {
- *     int val;
- *     ListNode next;
- *     ListNode(int x) {
- *         val = x;
- *         next = null;
- *     }
- * }
- */
-public class Solution {
+import util.ListNode;
+
+class Solution {
     int lenA;
     int lenB;
 

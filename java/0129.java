@@ -1,31 +1,15 @@
-
-/**
- * Definition for a binary tree node.
- * public class TreeNode {
- *     int val;
- *     TreeNode left;
- *     TreeNode right;
- *     TreeNode() {}
- *     TreeNode(int val) { this.val = val; }
- *     TreeNode(int val, TreeNode left, TreeNode right) {
- *         this.val = val;
- *         this.left = left;
- *         this.right = right;
- *     }
- * }
- */
-
 import java.util.*;
+import util.TreeNode;
 
 class Solution {
     public int sumNumbers(TreeNode root) {
         // DFS
         int rootToLeaf = 0, currNum = 0;
-        Deque<Pair<TreeNode, Integer>> stack = new ArrayDeque<>();
+        Deque<Pair> stack = new ArrayDeque<>();
         stack.push(new Pair(root, 0));
 
         while (!stack.isEmpty()) {
-            Pair<TreeNode, Integer> p = stack.pop();
+            Pair p = stack.pop();
             root = p.getKey();
             currNum = p.getValue();
 
@@ -41,5 +25,23 @@ class Solution {
         }
 
         return rootToLeaf;
+    }
+}
+
+class Pair {
+    private TreeNode key;
+    private Integer value;
+
+    public Pair(TreeNode key, Integer value) {
+        this.key = key;
+        this.value = value;
+    }
+
+    public TreeNode getKey() {
+        return key;
+    }
+
+    public Integer getValue() {
+        return value;
     }
 }
